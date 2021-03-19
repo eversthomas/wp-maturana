@@ -5,6 +5,7 @@
       <!-- main -->
       <main role="main">
         <article>
+            <?php get_template_part( 'template-parts/content', 'none' ); ?>
         </article>
       </main>
       <!-- /main -->
