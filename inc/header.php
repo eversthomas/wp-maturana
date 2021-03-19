@@ -29,7 +29,7 @@
         <p>Home Header</p>
         
         <!-- the main navigation -->
-        <?php get_navigation(); ?>
+        <?php get_template_part( 'inc/navigation' ); ?>
         <!-- /navigation -->
         
       </div>
