@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     
-    <title>MyHomepage</title>
+    <title><?php bloginfo( 'name' ); ?></title>
     
     <!-- Enter a brief description of your page -->
-    <meta name="author" content="Thomas Evers">
-    <meta name="description" content="ein processwire starter template mit sass und einer einfachen blog funktion">
+    <meta name="<?php bloginfo( 'author' ); ?>">
+    <meta name="<?php bloginfo( 'description' ); ?>">
     <meta name="keywords" content="processwire, template, sass, weblog, thomas evers">
     
     <!-- Include the site stylesheet -->
@@ -25,7 +25,7 @@
     <a class="skip-link screen-reader-text" href="#content">skip to content</a>
     <header role="banner">
       <div class="wrapper">
-        <h1><a href="/">MyHomepage</a></h1>
+        <h1><a href="/"><?php the_title(); ?></a></h1>
         <p>Home Header</p>
         
         <!-- the main navigation -->
