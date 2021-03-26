@@ -1,0 +1,32 @@
+// ----------
+// Config File
+// ----------
+
+// Colors
+$color: white;  // font
+$link: #006cb3;  // links
+$hover: #34495e;
+
+//navbar
+$nav-color: #f1c40f;
+$nav-hover: #e67e22;
+
+//Backgrounds
+$background: #2d3436;
+$header-background: #f1c40f;
+$footer-background: #191f21;
+
+// Typography
+$base: 16px; //used in html font-size for base rem
+$font: 'Titillium Web', sans-serif;
+
+// header
+$header-text-align: right;
+
+// Border
+
+// breakpoints
+$bp-small: 576px;
+$bp-medium: 768px;
+$bp-large: 992px;
+$bp-xlarge: 1200px;

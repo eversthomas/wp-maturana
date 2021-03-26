@@ -1,0 +1,74 @@
+// layout
+
+// site wrapper
+.wrapper, .page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// small auto flex
+.flex-auto {
+  display: flex;
+  flex-wrap: wrap;
+  
+  div {
+    flex: 1 1 280px;
+    margin: 1rem;
+    background: silver;
+  }
+  
+}
+
+// header
+#masthead {
+	background: $header-background;
+	padding: 1rem 1rem 2rem 1rem;
+	p {
+	    color: black;
+	    max-width: 450px;
+	    padding: 0.5rem;
+	}
+}
+
+// content main, aside
+.with-sidebar {
+	display: block;
+	@media screen and (min-width: $bp-medium) {
+		display: flex;
+		
+		main {
+			width: 68%;
+		}
+		aside {
+			width: 28%;
+		}
+	}
+}
+
+main, aside {
+	padding: 1rem;
+}
+
+// footer
+footer {
+	
+	background: $footer-background;
+	color: white;
+	padding: 2rem 1rem 1rem 1rem;
+	
+	.footer-widgets {
+		@media screen and (min-width: $bp-medium) {
+			display: flex;
+			justify-content: space-between;
+			
+			.footer-widget {
+				width: 32%;
+			}
+		}
+		.footer-widget {
+			padding: 1rem;
+			background: rgba(0, 0, 0, 0.5);
+		}
+	}
+	
+}
